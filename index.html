@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dosha Samyam  Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+      <p>Explore the mysteries of the stars and planets.</p>
+      </h1>
+    </header>
+    <div class="headLine">
+      <h2>Dosha Samyam : Marriage Compatibility Check</h2>
+    </div>
+    <div class="blink-highlight">Male Horoscope calculation</div>
+    <!--This is for Boy-->
+    <div class="container">
+      <div class="section" id="ascendent">
+        <h2>Lagna Chart</h2>
+        <form id="ascendentForm">
+          <h3>1st House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="ascendent1st_mars">
+              <input
+                type="checkbox"
+                id="ascendent1st1"
+                name="ascendent1st1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="ascendent1st_rahu">
+              <input
+                type="checkbox"
+                id="ascendent1st2"
+                class="ascendent1st"
+                name="ascendent1st2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="ascendent1st_sat">
+              <input
+                type="checkbox"
+                id="ascendent1st3"
+                class="ascendent1st"
+                name="ascendent1st3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="ascendent1st_sun">
+              <input
+                type="checkbox"
+                id="ascendent1st4"
+                class="ascendent1st"
+                name="ascendent1st4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <h3>2nd House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="ascendent2nd_mars">
+              <input
+                type="checkbox"
+                id="ascendent2nd1"
+                name="ascendent2nd1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="ascendent2nd_rahu">
+              <input
+                type="checkbox"
+                id="ascendent2nd2"
+                name="ascendent2nd2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="ascendent2nd_sat">
+              <input
+                type="checkbox"
+                id="ascendent2nd3"
+                name="ascendent2nd3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="ascendent2nd_sun">
+              <input
+                type="checkbox"
+                id="ascendent2nd4"
+                name="ascendent2nd4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <h3>4th House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="ascendent4th_mars">
+              <input
+                type="checkbox"
+                id="ascendent4th1"
+                name="ascendent4th1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="ascendent4th_rahu">
+              <input
+                type="checkbox"
+                id="ascendent4th2"
+                name="ascendent4th2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="ascendent4th_sat">
+              <input
+                type="checkbox"
+                id="ascendent4th3"
+                name="ascendent4th3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="ascendent4th_sun">
+              <input
+                type="checkbox"
+                id="ascendent4th4"
+                name="ascendent4th4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <h3>7th House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="ascendent7th_mars">
+              <input
+                type="checkbox"
+                id="ascendent7th1"
+                name="ascendent7th1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="ascendent7th_rahu">
+              <input
+                type="checkbox"
+                id="ascendent7th2"
+                name="ascendent7th2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="ascendent7th_sat">
+              <input
+                type="checkbox"
+                id="ascendent7th3"
+                name="ascendent7th3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="ascendent7th_sun">
+              <input
+                type="checkbox"
+                id="ascendent7th4"
+                name="ascendent7th4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <h3>8th House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="ascendent8th_mars">
+              <input
+                type="checkbox"
+                id="ascendent8th1"
+                name="ascendent8th1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="ascendent8th_rahu">
+              <input
+                type="checkbox"
+                id="ascendent8th2"
+                name="ascendent8th2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="ascendent8th_sat">
+              <input
+                type="checkbox"
+                id="ascendent8th3"
+                name="ascendent8th3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="ascendent8th_sun">
+              <input
+                type="checkbox"
+                id="ascendent8th4"
+                name="ascendent8th4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <h3>12th House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="ascendent12th_mars">
+              <input
+                type="checkbox"
+                id="ascendent12th1"
+                name="ascendent12th1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="ascendent12th_rahu">
+              <input
+                type="checkbox"
+                id="ascendent12th2"
+                name="ascendent12th2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="ascendent12th_sat">
+              <input
+                type="checkbox"
+                id="ascendent12th3"
+                name="ascendent12th3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="ascendent12th_sun">
+              <input
+                type="checkbox"
+                id="ascendent12th4"
+                name="ascendent12th4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+        </form>
+      </div>
+      <!-- Moon Chart -->
+      <div class="section" id="moon">
+        <h2>Moon Chart</h2>
+        <form id="moonForm">
+          <!-- Change the form ID to "moonForm" -->
+          <h3>1st House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="moon1st_mars">
+              <input
+                type="checkbox"
+                id="moon1st1"
+                name="moon1st1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="moon1st_rahu">
+              <input
+                type="checkbox"
+                id="moon1st2"
+                class="moon1st"
+                name="moon1st2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="moon1st_sat">
+              <input
+                type="checkbox"
+                id="moon1st3"
+                class="moon1st"
+                name="moon1st3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="moon1st_sun">
+              <input
+                type="checkbox"
+                id="moon1st4"
+                class="moon1st"
+                name="moon1st4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <!-- Moon 2nd House -->
+          <h3>2nd House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="moon2nd_mars">
+              <input
+                type="checkbox"
+                id="moon2nd1"
+                name="moon2nd1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="moon2nd_rahu">
+              <input
+                type="checkbox"
+                id="moon2nd2"
+                name="moon2nd2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="moon2nd_sat">
+              <input
+                type="checkbox"
+                id="moon2nd3"
+                name="moon2nd3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="moon2nd_sun">
+              <input
+                type="checkbox"
+                id="moon2nd4"
+                name="moon2nd4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <!-- 4th House Moon-->
+          <h3>4th House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="moon4th_mars">
+              <input
+                type="checkbox"
+                id="moon4th1"
+                name="moon4th1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="moon4th_rahu">
+              <input
+                type="checkbox"
+                id="moon4th2"
+                name="moon4th2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="moon4th_sat">
+              <input
+                type="checkbox"
+                id="moon4th3"
+                name="moon4th3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="moon4th_sun">
+              <input
+                type="checkbox"
+                id="moon4th4"
+                name="moon4th4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <h3>7th House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="moon7th_mars">
+              <input
+                type="checkbox"
+                id="moon7th1"
+                name="moon7th1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="moon7th_rahu">
+              <input
+                type="checkbox"
+                id="moon7th2"
+                name="moon7th2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="moon7th_sat">
+              <input
+                type="checkbox"
+                id="moon7th3"
+                name="moon7th3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="moon7th_sun">
+              <input
+                type="checkbox"
+                id="moon7th4"
+                name="moon7th4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <h3>8th House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="moon8th_mars">
+              <input
+                type="checkbox"
+                id="moon8th1"
+                name="moon8th1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="moon8th_rahu">
+              <input
+                type="checkbox"
+                id="moon8th2"
+                name="moon8th2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="moon8th_sat">
+              <input
+                type="checkbox"
+                id="moon8th3"
+                name="moon8th3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="moon8th_sun">
+              <input
+                type="checkbox"
+                id="moon8th4"
+                name="moon8th4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+
+          <h3>12th House</h3>
+          <label>Select Value:</label>
+          <div class="checkbox-group">
+            <label for="moon12th_mars">
+              <input
+                type="checkbox"
+                id="moon12th1"
+                name="moon12th1"
+                value="mars"
+              />
+              Mars
+            </label>
+            <label for="moon12th_rahu">
+              <input
+                type="checkbox"
+                id="moon12th2"
+                name="moon12th2"
+                value="rahu"
+              />
+              Rahu
+            </label>
+            <label for="moon12th_sat">
+              <input
+                type="checkbox"
+                id="moon12th3"
+                name="moon12th3"
+                value="sat"
+              />
+              Sat
+            </label>
+            <label for="moon12th_sun">
+              <input
+                type="checkbox"
+                id="moon12th4"
+                name="moon12th4"
+                value="sun"
+              />
+              Sun
+            </label>
+          </div>
+          <!-- END for Moon -->
+        </form>
+      </div>
+
+      <!-- Venus Chart-->
+      <div class="section" id="venus">
+        <h2>Venus Chart</h2>
+        <!-- Content for the Venus Chart goes here -->
+          <form id="venusForm">
+            <!-- Change the form ID to "moonForm" -->
+            <h3>1st House</h3>
+            <label>Select Value:</label>
+            <div class="checkbox-group">
+              <label for="venus1st_mars">
+                <input
+                  type="checkbox"
+                  id="venus1st1"
+                  name="venus1st1"
+                  value="mars"
+                />
+                Mars
+              </label>
+              <label for="venus1st_rahu">
+                <input
+                  type="checkbox"
+                  id="venus1st2"
+                  class="venus1st"
+                  name="venus1st2"
+                  value="rahu"
+                />
+                Rahu
+              </label>
+              <label for="venus1st_sat">
+                <input
+                  type="checkbox"
+                  id="venus1st3"
+                  class="venus1st"
+                  name="venus1st3"
+                  value="sat"
+                />
+                Sat
+              </label>
+              <label for="venus1st_sun">
+                <input
+                  type="checkbox"
+                  id="venus1st4"
+                  class="venus1st"
+                  name="venus1st4"
+                  value="sun"
+                />
+                Sun
+              </label>
+            </div>
+
+            <!-- Moon 2nd House -->
+            <h3>2nd House</h3>
+            <label>Select Value:</label>
+            <div class="checkbox-group">
+              <label for="venus2nd_mars">
+                <input
+                  type="checkbox"
+                  id="venus2nd1"
+                  name="venus2nd1"
+                  value="mars"
+                />
+                Mars
+              </label>
+              <label for="venus2nd_rahu">
+                <input
+                  type="checkbox"
+                  id="venus2nd2"
+                  name="venus2nd2"
+                  value="rahu"
+                />
+                Rahu
+              </label>
+              <label for="venus2nd_sat">
+                <input
+                  type="checkbox"
+                  id="venus2nd3"
+                  name="venus2nd3"
+                  value="sat"
+                />
+                Sat
+              </label>
+              <label for="venus2nd_sun">
+                <input
+                  type="checkbox"
+                  id="venus2nd4"
+                  name="venus2nd4"
+                  value="sun"
+                />
+                Sun
+              </label>
+            </div>
+
+            <!-- 4th House Moon-->
+            <h3>4th House</h3>
+            <label>Select Value:</label>
+            <div class="checkbox-group">
+              <label for="venus4th_mars">
+                <input
+                  type="checkbox"
+                  id="venus4th1"
+                  name="venus4th1"
+                  value="mars"
+                />
+                Mars
+              </label>
+              <label for="venus4th_rahu">
+                <input
+                  type="checkbox"
+                  id="venus4th2"
+                  name="venus4th2"
+                  value="rahu"
+                />
+                Rahu
+              </label>
+              <label for="venus4th_sat">
+                <input
+                  type="checkbox"
+                  id="venus4th3"
+                  name="venus4th3"
+                  value="sat"
+                />
+                Sat
+              </label>
+              <label for="venus4th_sun">
+                <input
+                  type="checkbox"
+                  id="venus4th4"
+                  name="venus4th4"
+                  value="sun"
+                />
+                Sun
+              </label>
+            </div>
+
+            <h3>7th House</h3>
+            <label>Select Value:</label>
+            <div class="checkbox-group">
+              <label for="venus7th_mars">
+                <input
+                  type="checkbox"
+                  id="venus7th1"
+                  name="venus7th1"
+                  value="mars"
+                />
+                Mars
+              </label>
+              <label for="venus7th_rahu">
+                <input
+                  type="checkbox"
+                  id="venus7th2"
+                  name="venus7th2"
+                  value="rahu"
+                />
+                Rahu
+              </label>
+              <label for="venus7th_sat">
+                <input
+                  type="checkbox"
+                  id="venus7th3"
+                  name="venus7th3"
+                  value="sat"
+                />
+                Sat
+              </label>
+              <label for="venus7th_sun">
+                <input
+                  type="checkbox"
+                  id="venus7th4"
+                  name="venus7th4"
+                  value="sun"
+                />
+                Sun
+              </label>
+            </div>
+
+            <h3>8th House</h3>
+            <label>Select Value:</label>
+            <div class="checkbox-group">
+              <label for="venus8th_mars">
+                <input
+                  type="checkbox"
+                  id="venus8th1"
+                  name="venus8th1"
+                  value="mars"
+                />
+                Mars
+              </label>
+              <label for="venus8th_rahu">
+                <input
+                  type="checkbox"
+                  id="venus8th2"
+                  name="venus8th2"
+                  value="rahu"
+                />
+                Rahu
+              </label>
+              <label for="venus8th_sat">
+                <input
+                  type="checkbox"
+                  id="venus8th3"
+                  name="venus8th3"
+                  value="sat"
+                />
+                Sat
+              </label>
+              <label for="venus8th_sun">
+                <input
+                  type="checkbox"
+                  id="venus8th4"
+                  name="venus8th4"
+                  value="sun"
+                />
+                Sun
+              </label>
+            </div>
+
+            <h3>12th House</h3>
+            <label>Select Value:</label>
+            <div class="checkbox-group">
+              <label for="venus12th_mars">
+                <input
+                  type="checkbox"
+                  id="venus12th1"
+                  name="venus12th1"
+                  value="mars"
+                />
+                Mars
+              </label>
+              <label for="venus12th_rahu">
+                <input
+                  type="checkbox"
+                  id="venus12th2"
+                  name="venus12th2"
+                  value="rahu"
+                />
+                Rahu
+              </label>
+              <label for="venus12th_sat">
+                <input
+                  type="checkbox"
+                  id="venus12th3"
+                  name="venus12th3"
+                  value="sat"
+                />
+                Sat
+              </label>
+              <label for="venus12th_sun">
+                <input
+                  type="checkbox"
+                  id="venus12th4"
+                  name="venus12th4"
+                  value="sun"
+                />
+                Sun
+              </label>
+            </div>
+            <!-- END for Moon -->
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Similar structure for Moon and Venus charts -->
+
+    <!-- <button id="calculateButton">Calculate</button>
+    <div id="resultContainer" class="result-container">
+      <div class="result-item">
+        <i class="fas fa-star"></i>
+        <p id="ascendentResult">Total Points in Ascendent:</p>
+      </div>
+      <div class="result-item">
+        <i class="fas fa-moon"></i>
+        <p id="moonResult">Total Points in Moon Lagna:</p>
+      </div>
+      <div class="result-item">
+        <i class="fas fa-venus"></i>
+        <p id="venusResult">Total Points in Venus Lagna:</p>
+      </div>
+      <div class="result-item">
+        <i class="fas fa-chart-pie"></i>
+        <p id="combinedResult">Total Points Combined:</p>
+      </div>
+    </div> -->
+<!--  The Boy end Here-->
+<div class="blink-highlight">Female Horoscope calculation</div>
+<!-- This is for Girl-->
+<div class="container">
+  <div class="section" id="girlascendent">
+    <h2>Lagna Chart</h2>
+    <form id="girlascendentForm">
+      <h3>1st House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="ascendent1st_mars">
+          <input
+            type="checkbox"
+            id="girlascendent1st1"
+            name="girlascendent1st1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="ascendent1st_rahu">
+          <input
+            type="checkbox"
+            id="girlascendent1st2"
+            class="girlascendent1st"
+            name="girlascendent1st2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="ascendent1st_sat">
+          <input
+            type="checkbox"
+            id="girlascendent1st3"
+            class="girlascendent1st"
+            name="girlascendent1st3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="ascendent1st_sun">
+          <input
+            type="checkbox"
+            id="girlascendent1st4"
+            class="girlascendent1st"
+            name="girlascendent1st4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <h3>2nd House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="ascendent2nd_mars">
+          <input
+            type="checkbox"
+            id="girlascendent2nd1"
+            name="girlascendent2nd1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="ascendent2nd_rahu">
+          <input
+            type="checkbox"
+            id="girlascendent2nd2"
+            name="girlascendent2nd2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="ascendent2nd_sat">
+          <input
+            type="checkbox"
+            id="girlascendent2nd3"
+            name="girlascendent2nd3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="ascendent2nd_sun">
+          <input
+            type="checkbox"
+            id="girlascendent2nd4"
+            name="girlascendent2nd4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <h3>4th House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="ascendent4th_mars">
+          <input
+            type="checkbox"
+            id="girlascendent4th1"
+            name="girlascendent4th1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="ascendent4th_rahu">
+          <input
+            type="checkbox"
+            id="girlascendent4th2"
+            name="girlascendent4th2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="ascendent4th_sat">
+          <input
+            type="checkbox"
+            id="girlascendent4th3"
+            name="girlascendent4th3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="ascendent4th_sun">
+          <input
+            type="checkbox"
+            id="girlascendent4th4"
+            name="girlascendent4th4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <h3>7th House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="ascendent7th_mars">
+          <input
+            type="checkbox"
+            id="girlascendent7th1"
+            name="girlascendent7th1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="ascendent7th_rahu">
+          <input
+            type="checkbox"
+            id="girlascendent7th2"
+            name="girlascendent7th2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="ascendent7th_sat">
+          <input
+            type="checkbox"
+            id="girlascendent7th3"
+            name="girlascendent7th3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="ascendent7th_sun">
+          <input
+            type="checkbox"
+            id="girlascendent7th4"
+            name="girlascendent7th4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <h3>8th House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="ascendent8th_mars">
+          <input
+            type="checkbox"
+            id="girlascendent8th1"
+            name="girlascendent8th1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="ascendent8th_rahu">
+          <input
+            type="checkbox"
+            id="girlascendent8th2"
+            name="girlascendent8th2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="ascendent8th_sat">
+          <input
+            type="checkbox"
+            id="girlascendent8th3"
+            name="girlascendent8th3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="ascendent8th_sun">
+          <input
+            type="checkbox"
+            id="girlascendent8th4"
+            name="girlascendent8th4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <h3>12th House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="ascendent12th_mars">
+          <input
+            type="checkbox"
+            id="girlascendent12th1"
+            name="girlascendent12th1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="ascendent12th_rahu">
+          <input
+            type="checkbox"
+            id="girlascendent12th2"
+            name="girlascendent12th2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="ascendent12th_sat">
+          <input
+            type="checkbox"
+            id="girlascendent12th3"
+            name="girlascendent12th3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="ascendent12th_sun">
+          <input
+            type="checkbox"
+            id="girlascendent12th4"
+            name="girlascendent12th4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+    </form>
+  </div>
+  <!-- Moon Chart -->
+  <div class="section" id="girlmoon">
+    <h2>Moon Chart</h2>
+    <form id="girlmoonForm">
+      <!-- Change the form ID to "moonForm" -->
+      <h3>1st House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="moon1st_mars">
+          <input
+            type="checkbox"
+            id="girlmoon1st1"
+            name="girlmoon1st1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="moon1st_rahu">
+          <input
+            type="checkbox"
+            id="girlmoon1st2"
+            class="girlmoon1st"
+            name="girlmoon1st2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="moon1st_sat">
+          <input
+            type="checkbox"
+            id="girlmoon1st3"
+            class="girlmoon1st"
+            name="girlmoon1st3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="moon1st_sun">
+          <input
+            type="checkbox"
+            id="girlmoon1st4"
+            class="girlmoon1st"
+            name="girlmoon1st4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <!-- Moon 2nd House -->
+      <h3>2nd House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="moon2nd_mars">
+          <input
+            type="checkbox"
+            id="girlmoon2nd1"
+            name="girlmoon2nd1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="moon2nd_rahu">
+          <input
+            type="checkbox"
+            id="girlmoon2nd2"
+            name="girlmoon2nd2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="moon2nd_sat">
+          <input
+            type="checkbox"
+            id="girlmoon2nd3"
+            name="girlmoon2nd3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="moon2nd_sun">
+          <input
+            type="checkbox"
+            id="girlmoon2nd4"
+            name="girlmoon2nd4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <!-- 4th House Moon-->
+      <h3>4th House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="moon4th_mars">
+          <input
+            type="checkbox"
+            id="girlmoon4th1"
+            name="girlmoon4th1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="moon4th_rahu">
+          <input
+            type="checkbox"
+            id="girlmoon4th2"
+            name="girlmoon4th2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="moon4th_sat">
+          <input
+            type="checkbox"
+            id="girlmoon4th3"
+            name="girlmoon4th3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="moon4th_sun">
+          <input
+            type="checkbox"
+            id="girlmoon4th4"
+            name="girlmoon4th4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <h3>7th House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="moon7th_mars">
+          <input
+            type="checkbox"
+            id="girlmoon7th1"
+            name="girlmoon7th1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="moon7th_rahu">
+          <input
+            type="checkbox"
+            id="girlmoon7th2"
+            name="girlmoon7th2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="moon7th_sat">
+          <input
+            type="checkbox"
+            id="girlmoon7th3"
+            name="girlmoon7th3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="moon7th_sun">
+          <input
+            type="checkbox"
+            id="girlmoon7th4"
+            name="girlmoon7th4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <h3>8th House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="moon8th_mars">
+          <input
+            type="checkbox"
+            id="girlmoon8th1"
+            name="girlmoon8th1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="moon8th_rahu">
+          <input
+            type="checkbox"
+            id="girlmoon8th2"
+            name="girlmoon8th2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="moon8th_sat">
+          <input
+            type="checkbox"
+            id="girlmoon8th3"
+            name="girlmoon8th3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="moon8th_sun">
+          <input
+            type="checkbox"
+            id="girlmoon8th4"
+            name="girlmoon8th4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+
+      <h3>12th House</h3>
+      <label>Select Value:</label>
+      <div class="checkbox-group">
+        <label for="moon12th_mars">
+          <input
+            type="checkbox"
+            id="girlmoon12th1"
+            name="girlmoon12th1"
+            value="mars"
+          />
+          Mars
+        </label>
+        <label for="moon12th_rahu">
+          <input
+            type="checkbox"
+            id="girlmoon12th2"
+            name="girlmoon12th2"
+            value="rahu"
+          />
+          Rahu
+        </label>
+        <label for="moon12th_sat">
+          <input
+            type="checkbox"
+            id="girlmoon12th3"
+            name="girlmoon12th3"
+            value="sat"
+          />
+          Sat
+        </label>
+        <label for="moon12th_sun">
+          <input
+            type="checkbox"
+            id="girlmoon12th4"
+            name="girlmoon12th4"
+            value="sun"
+          />
+          Sun
+        </label>
+      </div>
+      <!-- END for Moon -->
+    </form>
+  </div>
+
+  <!-- Venus Chart-->
+  <div class="section" id="girlvenus">
+    <h2>Venus Chart</h2>
+    <!-- Content for the Venus Chart goes here -->
+      <form id="girlvenusForm">
+        <!-- Change the form ID to "moonForm" -->
+        <h3>1st House</h3>
+        <label>Select Value:</label>
+        <div class="checkbox-group">
+          <label for="venus1st_mars">
+            <input
+              type="checkbox"
+              id="girlvenus1st1"
+              name="girlvenus1st1"
+              value="mars"
+            />
+            Mars
+          </label>
+          <label for="venus1st_rahu">
+            <input
+              type="checkbox"
+              id="girlvenus1st2"
+              class="girlvenus1st"
+              name="girlvenus1st2"
+              value="rahu"
+            />
+            Rahu
+          </label>
+          <label for="venus1st_sat">
+            <input
+              type="checkbox"
+              id="girlvenus1st3"
+              class="girlvenus1st"
+              name="girlvenus1st3"
+              value="sat"
+            />
+            Sat
+          </label>
+          <label for="venus1st_sun">
+            <input
+              type="checkbox"
+              id="girlvenus1st4"
+              class="girlvenus1st"
+              name="girlvenus1st4"
+              value="sun"
+            />
+            Sun
+          </label>
+        </div>
+
+        <!-- Moon 2nd House -->
+        <h3>2nd House</h3>
+        <label>Select Value:</label>
+        <div class="checkbox-group">
+          <label for="venus2nd_mars">
+            <input
+              type="checkbox"
+              id="girlvenus2nd1"
+              name="girlvenus2nd1"
+              value="mars"
+            />
+            Mars
+          </label>
+          <label for="venus2nd_rahu">
+            <input
+              type="checkbox"
+              id="girlvenus2nd2"
+              name="girlvenus2nd2"
+              value="rahu"
+            />
+            Rahu
+          </label>
+          <label for="venus2nd_sat">
+            <input
+              type="checkbox"
+              id="girlvenus2nd3"
+              name="girlvenus2nd3"
+              value="sat"
+            />
+            Sat
+          </label>
+          <label for="venus2nd_sun">
+            <input
+              type="checkbox"
+              id="girlvenus2nd4"
+              name="girlvenus2nd4"
+              value="sun"
+            />
+            Sun
+          </label>
+        </div>
+
+        <!-- 4th House Moon-->
+        <h3>4th House</h3>
+        <label>Select Value:</label>
+        <div class="checkbox-group">
+          <label for="venus4th_mars">
+            <input
+              type="checkbox"
+              id="girlvenus4th1"
+              name="girlvenus4th1"
+              value="mars"
+            />
+            Mars
+          </label>
+          <label for="venus4th_rahu">
+            <input
+              type="checkbox"
+              id="girlvenus4th2"
+              name="girlvenus4th2"
+              value="rahu"
+            />
+            Rahu
+          </label>
+          <label for="venus4th_sat">
+            <input
+              type="checkbox"
+              id="girlvenus4th3"
+              name="girlvenus4th3"
+              value="sat"
+            />
+            Sat
+          </label>
+          <label for="venus4th_sun">
+            <input
+              type="checkbox"
+              id="girlvenus4th4"
+              name="girlvenus4th4"
+              value="sun"
+            />
+            Sun
+          </label>
+        </div>
+
+        <h3>7th House</h3>
+        <label>Select Value:</label>
+        <div class="checkbox-group">
+          <label for="venus7th_mars">
+            <input
+              type="checkbox"
+              id="girlvenus7th1"
+              name="girlvenus7th1"
+              value="mars"
+            />
+            Mars
+          </label>
+          <label for="venus7th_rahu">
+            <input
+              type="checkbox"
+              id="girlvenus7th2"
+              name="girlvenus7th2"
+              value="rahu"
+            />
+            Rahu
+          </label>
+          <label for="venus7th_sat">
+            <input
+              type="checkbox"
+              id="girlvenus7th3"
+              name="girlvenus7th3"
+              value="sat"
+            />
+            Sat
+          </label>
+          <label for="venus7th_sun">
+            <input
+              type="checkbox"
+              id="girlvenus7th4"
+              name="girlvenus7th4"
+              value="sun"
+            />
+            Sun
+          </label>
+        </div>
+
+        <h3>8th House</h3>
+        <label>Select Value:</label>
+        <div class="checkbox-group">
+          <label for="venus8th_mars">
+            <input
+              type="checkbox"
+              id="girlvenus8th1"
+              name="girlvenus8th1"
+              value="mars"
+            />
+            Mars
+          </label>
+          <label for="venus8th_rahu">
+            <input
+              type="checkbox"
+              id="girlvenus8th2"
+              name="girlvenus8th2"
+              value="rahu"
+            />
+            Rahu
+          </label>
+          <label for="venus8th_sat">
+            <input
+              type="checkbox"
+              id="girlvenus8th3"
+              name="girlvenus8th3"
+              value="sat"
+            />
+            Sat
+          </label>
+          <label for="venus8th_sun">
+            <input
+              type="checkbox"
+              id="girlvenus8th4"
+              name="girlvenus8th4"
+              value="sun"
+            />
+            Sun
+          </label>
+        </div>
+
+        <h3>12th House</h3>
+        <label>Select Value:</label>
+        <div class="checkbox-group">
+          <label for="venus12th_mars">
+            <input
+              type="checkbox"
+              id="girlvenus12th1"
+              name="girlvenus12th1"
+              value="mars"
+            />
+            Mars
+          </label>
+          <label for="venus12th_rahu">
+            <input
+              type="checkbox"
+              id="girlvenus12th2"
+              name="girlvenus12th2"
+              value="rahu"
+            />
+            Rahu
+          </label>
+          <label for="venus12th_sat">
+            <input
+              type="checkbox"
+              id="girlvenus12th3"
+              name="girlvenus12th3"
+              value="sat"
+            />
+            Sat
+          </label>
+          <label for="venus12th_sun">
+            <input
+              type="checkbox"
+              id="girlvenus12th4"
+              name="girlvenus12th4"
+              value="sun"
+            />
+            Sun
+          </label>
+        </div>
+        <!-- END for Moon -->
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Similar structure for Moon and Venus charts -->
+
+<!-- <button id="girlcalculateButton">Calculate</button>
+<div id="resultContainer" class="result-container">
+  <div class="result-item">
+    <i class="fas fa-star"></i>
+  <p id="girlascendentResult">Total Points in Ascendent:</p>
+  </div>
+  <div class="result-item">
+    <i class="fas fa-moon"></i>
+    <p id="girlmoonResult">Total Points in Moon Lagna:</p>
+  </div>
+  <div class="result-item">
+    <i class="fas fa-venus"></i>
+    <p id="girlvenusResult">Total Points in Venus Lagna:</p>
+  </div>
+  <div class="result-item">
+    <i class="fas fa-chart-pie"></i>
+    <p id="girlcombinedResult">Total Points Combined:</p>
+  </div>
+</div>
+<div id="genderResult" class="result-container">
+  <div class="result-item">
+    <i class="fas fa-mars"></i>
+    <p id="boysResult">Total Points for Male:</p>
+  </div>
+  <div class="result-item">
+    <i class="fas fa-venus"></i>
+    <p id="girlsResult">Total Points for Female:</p>
+  </div>
+  <div class="result-item">
+    <i class="fas fa-venus-mars"></i>
+    <p id="differenceResult">Difference Between Male and Female:</p>
+    <div id="differenceFace"></div>
+  </div> -->
+  
+  <div class="table-container">
+  <table>
+    <tr>
+      <!-- Male Horoscope Section -->
+      <td>
+        <h2>Male Horoscope</h2>
+        <div id="resultContainer" class="result-container">
+          <div class="result-item">
+            <i class="fas fa-star"></i>
+            <p id="ascendentResult">Total Points in Ascendent:</p>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-moon"></i>
+            <p id="moonResult">Total Points in Moon Lagna:</p>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-venus"></i>
+            <p id="venusResult">Total Points in Venus Lagna:</p>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-chart-pie"></i>
+            <p id="combinedResult">Total Points Combined:</p>
+          </div>
+        </div>
+        <button id="calculateButton">Calculate</button>
+      </td>
+      
+      <!-- Female Horoscope Section -->
+      <td>
+        <h2>Female Horoscope</h2>
+        <div id="resultContainer" class="result-container">
+          <div class="result-item">
+            <i class="fas fa-star"></i>
+            <p id="girlascendentResult">Total Points in Ascendent:</p>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-moon"></i>
+            <p id="girlmoonResult">Total Points in Moon Lagna:</p>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-venus"></i>
+            <p id="girlvenusResult">Total Points in Venus Lagna:</p>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-chart-pie"></i>
+            <p id="girlcombinedResult">Total Points Combined:</p>
+          </div>
+        </div>
+        <button id="girlcalculateButton">Calculate</button>
+      </td>
+    </tr>
+    <!-- Gender Result Section -->
+    <tr>
+      <td colspan="2"><button id="totalcalculateButton">Calculate</button></tr></td>
+    <tr>
+      <td colspan="2">
+        <div id="genderResult" class="result-container">
+          <div class="result-item">
+            <i class="fas fa-mars"></i>
+            <p id="boysResult">Total Points for Male:</p>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-venus"></i>
+            <p id="girlsResult">Total Points for Female:</p>
+          </div>
+          <div class="result-item">
+            <i class="fas fa-venus-mars"></i>
+            <p id="differenceResult">Difference Between Male and Female:</p>
+            <div id="differenceFace"></div>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </div>
+
+<footer>
+<p>&copy; 2024 <b>Dosha Samyam Calculator.</b> All rights reserved. | Made with <span style="color: red;">&#10084;</span> by <b>Rashmit Jalan</b></p> 
+</footer>
+
+<!-- The is Girl End here -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,355 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+label,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add some CSS to style the checkboxes horizontally */
+.checkbox-group label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Set a background color and some basic styling for the body */
+body {
+  background-color: #f9edde;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Center the title */
+h1 {
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+}
+
+.headLine {
+  text-align: center;
+  color: #3498db; /* Beautiful blue color, you can change this */
+  margin: 20px 0;
+  background-color: #f51052; /* Light background color, you can change this */
+  padding: 5px; /* Add padding for a better visual appeal */
+  padding-bottom: 15px;
+  border-radius: 15px; /* Add rounded corners for a softer look */
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transition effect to color and background color change */
+}
+
+.headLine:hover {
+  color: #e74c3c; /* Change color on hover, you can change this */
+  background-color: #c7d416; /* Change background color on hover, you can change this */
+}
+
+/* Style the form headers */
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Style the individual houses and labels */
+h3 {
+  color: #555;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Style the select elements */
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#girlcalculateButton,
+#totalcalculateButton,
+#calculateButton {
+  display: inline-block;
+  /* padding: 8px 15px; */
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  margin-left: auto;
+  margin-right: auto;
+
+  display: block; /* Add this line to make the margin auto work */
+}
+
+#girlcalculateButton:hover {
+  background-color: rgb(167, 179, 0); /* Change color on hover */
+}
+
+#calculateButton:hover {
+  background-color: rgb(167, 179, 0);
+}
+
+/* Style the result paragraphs */
+p {
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Center the result paragraphs */
+#ascendentResult,
+#venusResult,
+#moonResult,
+#girlascendentResult,
+#girlmoonResult,
+#girlvenusResult,
+#girlcombinedResult,
+#boysResult,
+#girlsResult,
+#differenceResult,
+#combinedResult {
+  text-align: center;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* Stack sections vertically */
+  align-items: stretch; /* Stretch sections to full width */
+  min-height: 100vh; /* Set minimum height to the viewport height */
+}
+
+.section {
+  flex: 1; /* Each section takes equal space */
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#ascendent,
+#girlascendent {
+  background-color: #ffcccc; /* Optional: Background color for Ascendant section */
+}
+
+#moon,
+#girlmoon {
+  background-color: #ccffcc; /* Optional: Background color for Moon section */
+}
+
+#venus,
+#girlvenus {
+  background-color: #ccccff; /* Optional: Background color for Venus section */
+}
+
+#ascendent,
+#moon,
+#venus {
+  width: 100%; /* Make each chart section take 100% width */
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 750px) {
+  h2 {
+    font-size: 15px; /* Adjust the font size for smaller screens */
+  }
+}
+
+.result-container {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: palegoldenrod;
+}
+
+.result-container p {
+  margin: 10px 0;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out; /* Adding transition for smooth color change */
+}
+
+.result-container i {
+  margin-right: 10px;
+}
+
+.result-container i:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* This for gender result girls and Boys combined */
+#genderResult {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.result-item:hover {
+  color: #ff6699; /* Change this color to your desired hover color */
+}
+
+.result-item i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.result-item p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Change this color to your desired text color */
+}
+
+/* This is for Girls value in css  */
+#resultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.result-item:hover {
+  color: #ff9900; /* Change this color to your desired hover color */
+}
+
+.result-item i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.result-item p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Change this color to your desired text color */
+}
+
+/* For the header and footer : */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: rgb(72 188 176); /* Dark teal color, you can change this */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  font-style: italic;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(72 188 176); /* Dark teal color, same as header */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-text {
+  margin: 0;
+  text-align: right;
+  width: 100%;
+  font-weight: bold;
+}
+
+#differenceFace {
+  padding: 15px;
+}
+
+@keyframes jumpAnimation {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.jumping-boy {
+  display: inline-block;
+  animation: jumpAnimation 1s infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  .fas.fa-venus-mars {
+    margin-right: 5px; /* Adjust as needed to reduce the space */
+  }
+}
+
+.blink-highlight {
+  text-align: center;
+  color: #0e0d0d; /* Text color */
+  margin: 20px 0;
+  background-color: yellow; /* Background color */
+  padding: 10px; /* Padding */
+  border-radius: 10px; /* Border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  font-size: 1.2em; /* Font size */
+  font-weight: bold; /* Font weight */
+  text-transform: uppercase; /* Uppercase text */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+#girlcalculateButton,
+#calculateButton {
+  display: none;
+}
